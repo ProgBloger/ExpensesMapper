@@ -7,8 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ExpencesMapper.Interfaces\ExpensesMapper.Interfaces.csproj" />
     <ProjectReference Include="..\ExpencesMapper.Models\ExpensesMapper.Models.csproj" />
+    <ProjectReference Include="..\ExpensesMapper.Enums\ExpensesMapper.Enums.csproj" />
   </ItemGroup>
 
 </Project>

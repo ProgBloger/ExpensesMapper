@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpensesMapper", "ExpencesMapper\ExpensesMapper.csproj", "{00809944-D0B2-4C1A-BAFA-7AF6EE374EE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpensesMapper", "ExpencesMapper\ExpensesMapper.csproj", "{00809944-D0B2-4C1A-BAFA-7AF6EE374EE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpensesMapper.Lib", "ExpencesMapper.Lib\ExpensesMapper.Lib.csproj", "{7A24B6DF-AAB2-4030-9CDC-EBECCA2F5540}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpensesMapper.Lib", "ExpencesMapper.Lib\ExpensesMapper.Lib.csproj", "{7A24B6DF-AAB2-4030-9CDC-EBECCA2F5540}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpensesMapper.Interfaces", "ExpencesMapper.Interfaces\ExpensesMapper.Interfaces.csproj", "{3121C7FF-BFFE-4FCF-9E24-FE75DA4A8DC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpensesMapper.Interfaces", "ExpencesMapper.Interfaces\ExpensesMapper.Interfaces.csproj", "{3121C7FF-BFFE-4FCF-9E24-FE75DA4A8DC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpensesMapper.Models", "ExpencesMapper.Models\ExpensesMapper.Models.csproj", "{9CDBAC0E-B676-40F1-835F-E8FF874C299A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpensesMapper.Models", "ExpencesMapper.Models\ExpensesMapper.Models.csproj", "{9CDBAC0E-B676-40F1-835F-E8FF874C299A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpensesMapper.Enums", "ExpensesMapper.Enums\ExpensesMapper.Enums.csproj", "{5F7AAB96-1192-4475-81B4-C0E5D085D479}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9CDBAC0E-B676-40F1-835F-E8FF874C299A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CDBAC0E-B676-40F1-835F-E8FF874C299A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CDBAC0E-B676-40F1-835F-E8FF874C299A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7AAB96-1192-4475-81B4-C0E5D085D479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7AAB96-1192-4475-81B4-C0E5D085D479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7AAB96-1192-4475-81B4-C0E5D085D479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7AAB96-1192-4475-81B4-C0E5D085D479}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
