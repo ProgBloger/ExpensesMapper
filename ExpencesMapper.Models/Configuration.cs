@@ -4,11 +4,13 @@
     {
         public string InputPath { get; }
         public string OutputPath { get; }
+        public string CategoriesInputPath { get; }
 
-        public Configuration(string inputPath, string outputPath)
+        public Configuration(string inputPath, string outputPath, string categoriesInputPath)
         {
             InputPath = inputPath;
             OutputPath = outputPath;
+            CategoriesInputPath = categoriesInputPath;
         }
     }
 }

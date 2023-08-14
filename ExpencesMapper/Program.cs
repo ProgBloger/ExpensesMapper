@@ -11,10 +11,11 @@ var builder = new ConfigurationBuilder()
 
 IConfiguration configuration = builder.Build();
 
-string inputPath = configuration["path:input"];
+string inputPath = configuration["path:input:path"];
+string categoriesInputPath = configuration["path:input:categories"];
 string outputPath = configuration["path:output"];
 
-var conf = new Configuration(inputPath, outputPath);
+var conf = new Configuration(inputPath, outputPath, categoriesInputPath);
 
 var kernel = new StandardKernel();
 

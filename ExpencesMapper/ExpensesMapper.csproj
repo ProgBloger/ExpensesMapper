@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="if not exist &quot;$(TargetDir)input&quot; mkdir &quot;$(TargetDir)input&quot;&#xD;&#xA;if not exist &quot;$(TargetDir)output&quot; mkdir &quot;$(TargetDir)output&quot;&#xD;&#xA;" />
+    <Exec Command="if not exist &quot;$(TargetDir)input&quot; mkdir &quot;$(TargetDir)input&quot;&#xD;&#xA;if not exist &quot;$(TargetDir)input/categories&quot; mkdir &quot;$(TargetDir)input/categories&quot;&#xD;&#xA;if not exist &quot;$(TargetDir)output&quot; mkdir &quot;$(TargetDir)output&quot;&#xD;&#xA;" />
   </Target>
 
 </Project>
